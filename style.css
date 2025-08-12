@@ -1,0 +1,27 @@
+body {
+      background-color: #f2f4f8;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+    .panel, .question-block, .preview-panel {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .question-type {
+      font-size: 0.85rem;
+      color: #6c757d;
+    }
+    .option-link {
+      color: #0d6efd;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+    .btn-sm {
+      border-radius: 6px;
+    }
+    @media (max-width: 768px) {
+      .panel {
+        margin-bottom: 1rem;
+      }
+    }
